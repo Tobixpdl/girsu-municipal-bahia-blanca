@@ -37,7 +37,7 @@ export default function CourseApp(){
       <div className="sidebar-tail"><div className="sidebar-progress"><span>Actividades resueltas</span><b>{completed.length}/{chapters.length}</b></div><div className="progress-line"><i style={{width:`${completed.length/chapters.length*100}%`}}/></div><a href={pdfUrl} target="_blank" rel="noreferrer">Abrir PDF completo <span>↗</span></a></div>
     </aside>
     <div className="course-main">
-      <header className="course-top"><button className="menu-button" type="button" onClick={()=>setMenu(true)} aria-expanded={menu} aria-label="Abrir menú">☰</button><span>Programa de gestión integral de residuos sólidos urbanos municipal</span><a href={pdfUrl} target="_blank" rel="noreferrer">Ver guía original ↗</a></header>
+      <header className="course-top"><button className="menu-button" type="button" onClick={()=>setMenu(true)} aria-expanded={menu} aria-label="Abrir menú">☰</button><div className="top-brand"><img src="/municipio-bahia-blanca.png" width="298" height="75" alt="Municipio de Bahía Blanca"/><span>Programa de gestión integral de residuos sólidos urbanos municipal</span></div><a href={pdfUrl} target="_blank" rel="noreferrer">Ver guía original ↗</a></header>
       <main className="course-content">
         <div className="chapter-intro"><div className="chapter-kicker"><b>{String(chapterIndex+1).padStart(2,'0')}</b><span>de {chapters.length} módulos</span><span className="kicker-rule"/><span>pp. {chapter.pages[0]}–{chapter.pages.at(-1)}</span></div><h1>{chapter.title}</h1><p>{chapter.summary}</p></div>
         <div className={`step-tabs ${chapter.id==='residuos'?'residuos-tabs':''}`} role="group" aria-label={`Pasos de ${chapter.title}`}>{chapter.steps.map((s,i)=><button key={s.id} onClick={()=>navigate(chapter.id,s.id)} className={s.id===step.id?'active':''} aria-pressed={s.id===step.id}><span>{String(i+1).padStart(2,'0')}</span>{s.label}</button>)}</div>
@@ -47,7 +47,7 @@ export default function CourseApp(){
         </section>
         <div className="after-stage"><div className="source-pages"><span>Páginas del tema</span><div className="page-links">{chapter.pages.map(p=><a key={p} href={pageUrl(p)} target="_blank" rel="noreferrer">p. {p}</a>)}</div></div><section className="mini-practice" aria-label="Pregunta de comprensión"><div className="mini-heading"><span>Comprobá tu criterio</span><b>{completed.includes(chapter.id)?'Resuelta':'Una decisión'}</b></div><h3>{chapter.question}</h3><div className="choices">{chapter.choices.map((choice,i)=><button key={i} className={answer===i?(choice.correct?'right':'wrong'):''} onClick={()=>pickAnswer(i)}><span>{String.fromCharCode(65+i)}</span>{choice.text}</button>)}</div>{answer!==null&&<p className={`choice-result ${chapter.choices[answer].correct?'good':''}`} role="status">{chapter.choices[answer].explanation}</p>}</section></div>
       </main>
-      <footer className="site-foot">Fuente: Programa GIRSU MBB · archivo de 2021 · Los circuitos y contactos pueden haber cambiado.</footer>
+      <footer className="site-foot"><img src="/gestion-ambiental-bahia-blanca.png" width="256" height="77" alt="Gestión Ambiental, Municipio de Bahía Blanca"/><span>Fuente: Programa GIRSU MBB · archivo de 2021 · Los circuitos y contactos pueden haber cambiado.</span></footer>
     </div>
   </div>
 }
