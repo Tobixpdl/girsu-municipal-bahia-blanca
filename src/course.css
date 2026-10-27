@@ -3,3 +3,4 @@
 
 .canvas-column{display:flex;flex-direction:column}.scene-stage{flex:1;min-height:355px;height:auto}@media(max-width:760px){.scene-stage{height:310px;min-height:310px}}@media(max-width:400px){.scene-stage{height:270px;min-height:270px}}
 
+.scene-identification{position:absolute;left:17px;bottom:17px;background:#244d35;color:white;border:1px solid #d9e8d3;border-radius:5px;box-shadow:0 8px 24px #1b402535;padding:8px 12px;font-size:12px;pointer-events:none;animation:message-in .22s both}.scene-identification b{font-family:Outfit,sans-serif;font-size:14px}.source-pages{padding:13px 4px;color:#68796a;font-size:11px}.source-pages>span{display:block;font-weight:700;margin-bottom:10px}.source-pages .page-links a{display:inline-flex}.mini-practice{min-height:0}@media(max-width:760px){.source-pages{padding:3px 0 16px}.scene-identification{left:10px;bottom:10px}}

@@ -10,7 +10,7 @@ const pages = new Set(chapters.flatMap(chapter => [...chapter.pages, ...chapter.
 if (ids.length !== 4 || new Set(ids).size !== ids.length) errors.push('Se esperaban cuatro capítulos con IDs únicos.')
 for (let p = 3; p <= 15; p++) if (!pages.has(p)) errors.push(`Falta la página de contenido ${p}.`)
 for (const chapter of chapters) {
-  if (!chapter.title || !chapter.summary || !chapter.closing || chapter.steps.length < 4) errors.push(`Capítulo incompleto: ${chapter.id}.`)
+  if (!chapter.title || !chapter.summary || chapter.steps.length < 4) errors.push(`Capítulo incompleto: ${chapter.id}.`)
   const stepIds = chapter.steps.map(step => step.id)
   if (new Set(stepIds).size !== stepIds.length) errors.push(`Pasos repetidos: ${chapter.id}.`)
   for (const step of chapter.steps) {

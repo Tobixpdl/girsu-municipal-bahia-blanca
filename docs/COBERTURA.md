@@ -10,7 +10,7 @@ Las referencias son páginas físicas del archivo, contando la portada como pág
 | 6 | Recipiente de húmedos | Separar en la oficina / tacho negro con restos |
 | 7 | Recipiente de secos, retiro diferenciado | Separar en la oficina / tacho verde y doble recorrido |
 | 8 | Pilas, electrónicos, lámparas, tinta y tóner; exclusión de ambos cestos | Lo que va por otra vía / cuatro modelos 3D individuales |
-| 9 | Motivos ambientales, destinos y cooperativas | Lo que va por otra vía / vehículos y planta esquemáticos |
+| 9 | Motivos ambientales, destinos y cooperativas | Lo que va por otra vía / camiones de húmedos y secos, relleno y cinta de clasificación |
 | 10 | Punto limpio, diálogo y extensión al hogar | Lo que va por otra vía / dos cestos y mensajes animados |
 | 11 | Reducir, reutilizar y reciclar | Las siete R / objetos que cambian según la decisión |
 | 12 | Rediseñar, reparar, renovar, recuperar y economía circular | Las siete R / envase, silla y materiales |

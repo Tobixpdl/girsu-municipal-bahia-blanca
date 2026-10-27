@@ -1,6 +1,6 @@
 # Gestión integral de residuos sólidos urbanos municipal
 
-Guía interactiva basada exclusivamente en el PDF local `GUIA-GIRSU-MBB.pdf` (15 páginas físicas, edición de 2021). Son cuatro capítulos, sin portada didáctica: qué descartamos, separación en la oficina, residuos que requieren otra vía y las siete R. Cada paso incluye una escena 3D manipulable, una explicación breve, un detalle de contexto y un enlace a la página exacta del documento. Hay una pregunta compacta al final de cada capítulo. Las escenas de residuos especiales muestran pilas, computadora, lámpara y tóner como objetos distintos.
+Guía interactiva basada exclusivamente en el PDF local `GUIA-GIRSU-MBB.pdf` (15 páginas físicas, edición de 2021). Son cuatro capítulos, sin portada didáctica: qué descartamos, separación en la oficina, residuos que requieren otra vía y las siete R. Cada paso incluye una escena 3D manipulable, una explicación y un enlace a la página exacta. Al tocar los objetos aparece su nombre. Hay una pregunta compacta al final de cada capítulo. La primera escena distingue zanahoria y café usado; las pilas no se superponen; el destino muestra dos camiones rotulados y una cinta transportadora animada.
 
 ## Ejecutar
 
