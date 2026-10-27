@@ -19,7 +19,7 @@ npm run dev
 - `docs/COBERTURA.md`: trazabilidad entre páginas y capítulos.
 - `public/GUIA-GIRSU-MBB.pdf`: fuente original, sin modificar.
 
-El progreso se guarda en este navegador con la clave `girsu-mbb-96bf8a6f-v2`. Se respetan las preferencias de movimiento reducido. Las escenas son representaciones didácticas, no modelos de instalaciones reales. Las cifras, teléfonos, servicios y recorridos operativos de la guía se presentan como información de su edición de 2021; antes de usarlos en una gestión actual hay que confirmar su vigencia.
+El progreso se guarda en este navegador con la clave `girsu-mbb-96bf8a6f-v2`. En móvil, el menú se cierra desde su botón, al tocar fuera o al elegir un capítulo. Las cuatro pestañas del primer capítulo caben juntas, y el último paso de cada capítulo enlaza directamente al siguiente. Se respetan las preferencias de movimiento reducido. Las escenas son representaciones didácticas, no modelos de instalaciones reales. Las cifras, teléfonos, servicios y recorridos operativos de la guía se presentan como información de su edición de 2021; antes de usarlos en una gestión actual hay que confirmar su vigencia.
 
 SHA-256 del PDF: `96BF8A6F9729DB645E62A9E2FDF3BD46D3AB5700BAB6112E899F2D801BD10BE6`.
 
